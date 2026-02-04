@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+}
+.h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+    color: white;
+}
+.controls{
+    width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls input, .controls select{
+    width: 25%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.controls button {
+    width: 20%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.kartochki{
+     width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.card{
+    width: 250px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #FFFF00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
